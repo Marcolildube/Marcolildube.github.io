@@ -1,0 +1,142 @@
+.cont{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.cont .hexagon{
+	position: relative;
+	width: 350px;
+	height: 400px;
+	margin: 50px 20px 70px;
+	margin-top: 250px;
+	margin-bottom: 5px;
+}
+.cont .hexagon .shape{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.cont .hexagone{
+	position: absolute;
+	width: 350px;
+	height: 400px;
+	margin: 50px 20px 70px;
+	margin-top: -130px;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.cont .hexagone .shape{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.cont .hexagon .shape img{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.cont .hexagone .shape img{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.cont .hexagone .shape .content h2{
+	position: absolute;
+	font-weight: 800;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	transition: 0.5s;
+	color: white;
+	clip-path: polygon(50% 20%, 100% 50%, 50% 80%, 0% 50%);
+}
+.cont .hexagone .shape .content p{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	visibility: hidden;
+	transition: 0.01s;
+}
+.cont .hexagon .shape .content h2{
+	position: absolute;
+	font-weight: 800;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	clip-path: polygon(50% 30%, 100% 50%, 50% 70%, 0% 50%);
+	border:2px solid black;
+	transition: 0.5s;
+}
+.cont .hexagone:hover .shape  .content h2{
+	position: absolute;
+	top: -80px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	color: gold;
+
+}
+.cont .hexagone .shape:hover  .content p{
+	visibility: visible;
+	background: linear-gradient(45deg, black, rgba(3,169,244, 0.3));
+	transition: 0.1s;
+	cursor: pointer;
+}
+.cont  .hexagon .shape:hover  .content h2{
+	background: linear-gradient(45deg, black, rgba(3,169,244, 0.2));
+	margin-bottom: 0px;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	color: gold;
+	cursor: pointer;
+	
+
+}
+
+
+.cont .hexagone .shape:hover .cont .hexagon1{
+	visibility: visible;
+}
+.cont .hexagone .shape .content p:hover .cont .hexagon2{
+	display: block;
+}

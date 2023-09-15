@@ -1,0 +1,124 @@
+/*style service menu*/
+
+.menu_serv{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	position: relative;
+	top: 400px;
+
+}
+.menu_serv a{
+	font-family: impact;
+	border-radius: 10px;
+	font-size: 20px;
+	margin: 20px;
+	color: white;
+	padding: 20px;
+	border:1px solid white;
+}
+.menu_serv a:hover{
+	box-shadow: 0 0 15px rgba(255,255,255,.2);
+	font-size: 21px;
+}
+.menu_serv .csw{
+	background-color: white;
+	color: black;
+}
+.sectionn2{
+	margin-top: 100px;
+}
+.services_section{
+	margin-top: 350px;
+	position:relative;
+	background-color: rd;
+	
+}
+.sectionn2 .titre{
+	background-color: black;
+	border-radius: 10px;
+	font-size: 50px;
+	color: white;
+	tex-shadow: 0 0 10px white;
+	font-family: impact;
+}
+.definition{
+	color: white;
+}
+		/* CSW */
+.details_csw{
+	height: 3030px;
+	justify-content: left;
+	text-align: left;
+	align-items: left;
+	background-color: ed;
+}
+.details_csw h1{
+	text-decoration: underline;
+	position: relative;
+	margin: 20px;
+	top: 20px;
+	color: white;
+	font-family: impact;
+	left: 510px;
+}
+.dt_csw{
+	box-shadow: 0 0 20px rgba(255,255,255,.2);
+	margin:10px;
+	height: 200px;
+	
+}
+.analyse{
+	position: relative;
+	height: 1800px;
+}
+
+.dt_csw ul{
+
+	font-size: 20px;
+	color: white;
+	position: relative;
+	left: 50px;
+
+}
+.dt_csw li{
+	padding: 10px;
+}
+.analyse p{
+	width: 1000px;
+	position: relative;
+	top: -30px;
+} 
+.dt_csw span {
+	left: 30px;
+	position: relative;
+}
+.analyse .p1{
+	width: 500px;
+}
+.analyse img{
+	position: absolute;
+	margin-left: 600px;
+	width: 550px;
+	height: 800px;
+	margin-top: 200px;
+}
+.analyse h3{
+	color: white;
+	font-size: 18px;
+	margin: 40px;
+}
+.sup_oppt{
+	height: 300px;
+}
+.dt_csw h2{
+	color: white;
+	left:470px;
+	font-family: impact;
+	text-decoration: underline;
+	top: 20px;
+}
+.dev_sur_m{
+	height: 300px;
+}
